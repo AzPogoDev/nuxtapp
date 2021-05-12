@@ -1,5 +1,23 @@
 {
   "Header": {
     "description": "Auto imported from components/Header.vue"
+  },
+  "HomeHero": {
+    "description": "Auto imported from components/HomeHero.vue"
+  },
+  "RecentsProjects": {
+    "description": "Auto imported from components/RecentsProjects.vue"
+  },
+  "SearchBar": {
+    "description": "Auto imported from components/SearchBar.vue"
+  },
+  "HomeFilterSideBar": {
+    "description": "Auto imported from components/home/FilterSideBar.vue"
+  },
+  "HomeSingleProject": {
+    "description": "Auto imported from components/home/HomeSingleProject.vue"
+  },
+  "HomeNavSideBar": {
+    "description": "Auto imported from components/home/NavSideBar.vue"
   }
 }

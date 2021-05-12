@@ -1,0 +1,51 @@
+// Then include the following
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";
+
+// OO CSS
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.radius {
+  border-radius: 1.25rem;
+}
+.btn-secondary {
+  border-color: #9c88ff;
+  background: #9c88ff;
+  &:hover {
+    background: #745ee2;
+    border-color: #745ee2;
+  }
+}
+
+section {
+  padding: $spacer * 2;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 1.25rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $dark;
+  margin: $spacer;
+}
+
+.title {
+  margin: 0;
+  font-weight: 500;
+  font-size: $spacer * 1.5;
+}
